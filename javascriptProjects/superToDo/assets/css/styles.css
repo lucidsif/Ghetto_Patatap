@@ -1,0 +1,124 @@
+body{
+    font-family: Raleway;
+background: #0099F7; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #0099F7 , #F11712); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #0099F7 , #F11712); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+#containAll{
+    position:relative;
+    max-width: 55%;
+    margin: 100px auto;
+    box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+    
+}
+
+#batLeft{
+    position: absolute;
+    margin-left: 2.89em;
+    margin-top: -2.39em;
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0.33deg);
+}
+
+#batRight{
+    position: absolute;
+    margin-left: 34.09em;
+    margin-top: -2.39em;
+    -ms-transform: rotate(-2deg); /* IE 9 */
+    -webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
+    transform: rotate(-.33deg);
+}
+
+#insideTableContainer{
+    position: absolute;
+    margin-left:12.7em;
+    width:40%;
+}
+#introText{
+    color: snow;
+    margin-left: 2em;
+}
+#introBox{
+    background-color: 
+background: #0099F7; /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0099F7 , #F11712); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0099F7 , #F11712); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome
+        
+        /*rgb(255,255,153); */
+}
+
+#iconContainer{
+    position: relative;
+}
+
+#icon{
+    width: 35px;
+    position: absolute;
+    margin-left: 18em;
+    margin-top: 1.7em;
+}
+.hideInput{
+     opacity: 0; 
+}
+
+table{
+    float: left;
+     
+}
+
+th{
+    height: 80px;
+    width:300px;
+}
+
+input{
+    height: 40px;
+    width:300px;
+}
+thead tr{
+    background-color:black;
+    height: 40px
+}
+
+tbody tr{ 
+    background-color: white;
+    text-align: left;
+    padding: 8px;
+    opacity: 0.9;
+}
+tbody tr:hover {
+    opacity: 0.8;
+}
+
+tr{
+    background-color: gray;
+    height: 50px;
+}
+
+tr:nth-child(2n){
+    background-color:lightgrey;
+}
+
+.donetr{
+    color:gray;
+    opacity: 0.2;
+}
+
+.donetd{
+    text-decoration: line-through;
+    color:black;
+    opacity: 1;
+}
+.hiddenTrash{
+    width: 24px;
+    float: left;
+    padding-right: 5px;
+    margin-top: 0em;
+    opacity: 0;
+}
+.hiddenTrash:hover {
+    opacity: 1;
+}
